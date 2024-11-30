@@ -68,12 +68,12 @@ header {
 
 /* Nav*/
 .nav {
-    background-color: #696868;
-    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
+    background-color: #696868;
+    padding: 10px 20px;
     top: 0;
     width: 100%;
     z-index: 1000;
@@ -109,7 +109,7 @@ header {
 }
 .button:hover {
     background-color: white;
-    color: #4A4A4A;
+    color: #0e9db3;
 }
 
 /*Humburger*/
@@ -125,6 +125,12 @@ header {
     #toggler-btn {
         display: block;
     }
+
+    .nav i.bx-menu{
+        font-size: 4em;
+        display: block;
+    }
+
     .links {
         display: block;
         position: fixed;
